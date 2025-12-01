@@ -7,7 +7,7 @@ spec:
   source:
     repoURL: "https://github.com/JBTTT/Assignment3.13"
     targetRevision: main
-    path: <path_to_manifest_directory> (depends on which folder it's in)
+    path: .
   destination:
     server: https://kubernetes.default.svc
     namespace: jibin-ns
